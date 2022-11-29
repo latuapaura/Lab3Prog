@@ -10,7 +10,7 @@ public class SingleBird extends Entity {
     public void seatOn(Entity target){
         System.out.println(this.getName() + " села на " + target.getName()+"а");
     }
-    public void looking_around(){
+    public void lookingAround(){
         System.out.println(this.getName() + " смотрела по сторонам");
     }
     public void fly(){

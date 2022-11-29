@@ -7,7 +7,7 @@ public class Wind extends Entity {
         super("Теплый ласковый ветерок");
         this.connectToStory();
     }
-    public void nalet(Entity entity){
+    public void raid(Entity entity){
         System.out.println(this.getName() + " налетел на " + entity.getName().toLowerCase());
     }
 }

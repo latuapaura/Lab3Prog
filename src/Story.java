@@ -8,7 +8,7 @@ public class Story {
         Wind wind = new Wind();
         Tree tree = new Tree();
         System.out.println();
-        wind.nalet(tree);
+        wind.raid(tree);
         Human human = new Human();
         tree.wave(human);
         tree.whisper();
@@ -32,7 +32,7 @@ public class Story {
         human.stay();
         SingleBird singeBird = new SingleBird();
         singeBird.seatOn(human);
-        singeBird.looking_around();
+        singeBird.lookingAround();
         singeBird.fly();
         singeBird.beat(human);
         human.changeEmotion(Emotion.emotion);
