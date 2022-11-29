@@ -2,8 +2,8 @@ package classes;
 
 import utility.Entity;
 
-public class singeBird extends Entity {
-    public singeBird() {
+public class SingleBird extends Entity {
+    public SingleBird() {
         super("Пичужка");
         this.connectToStory();
     }

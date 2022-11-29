@@ -30,7 +30,7 @@ public class Story {
         birds.changePos(Position.up);
         human.lookAt(birds);
         human.stay();
-        singeBird singeBird = new singeBird();
+        SingleBird singeBird = new SingleBird();
         singeBird.seatOn(human);
         singeBird.looking_around();
         singeBird.fly();
