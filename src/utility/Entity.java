@@ -1,6 +1,6 @@
 package utility;
 
-public abstract class Entity implements getProp {
+public abstract class Entity implements GetProp {
     private String name;
     public Entity(String name){
         this.name = name;

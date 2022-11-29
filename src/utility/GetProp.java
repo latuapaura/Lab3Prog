@@ -1,6 +1,6 @@
 package utility;
 
-public interface getProp {
+public interface GetProp {
     String getName();
     void connectToStory();
 }
