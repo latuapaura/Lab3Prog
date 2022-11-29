@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="566cb00b-5d79-4c67-ba8a-b141abe13de7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Story.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Birds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Flower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Leafs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Wind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/singeBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utility/Emotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utility/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utility/FlowerColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utility/HumanUses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utility/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utility/getProp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2IEkbQAY1mSPNefo5xVPTjkYWA3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="566cb00b-5d79-4c67-ba8a-b141abe13de7" name="Changes" comment="" />
+      <created>1669754201758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669754201758</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
