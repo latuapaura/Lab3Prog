@@ -14,20 +14,20 @@ public class Story {
         tree.whisper();
         Flower PinkFlower = new Flower(FlowerColor.PINK);
         Flower BlueFlower = new Flower(FlowerColor.BLUE);
-        PinkFlower.changePos(Position.inGrass);
-        BlueFlower.changePos(Position.inGrass);
+        PinkFlower.changePos(Position.INGRASS);
+        BlueFlower.changePos(Position.INGRASS);
         PinkFlower.dazzle();
         BlueFlower.dazzle();
         human.lookAt(PinkFlower);
         human.lookAt(BlueFlower);
-        human.changeEmotion(Emotion.Nice);
+        human.changeEmotion(Emotion.NICE);
         Birds birds = new Birds();
-        birds.changePos(Position.up);
+        birds.changePos(Position.UP);
         birds.fluttered();
         birds.tweet();
-        birds.changePos(Position.inGrass);
+        birds.changePos(Position.INGRASS);
         birds.peck();
-        birds.changePos(Position.up);
+        birds.changePos(Position.UP);
         human.lookAt(birds);
         human.stay();
         SingleBird singeBird = new SingleBird();
@@ -35,7 +35,7 @@ public class Story {
         singeBird.lookingAround();
         singeBird.fly();
         singeBird.beat(human);
-        human.changeEmotion(Emotion.emotion);
+        human.changeEmotion(Emotion.EMOTION);
         human.gotEmotional();
         human.cry();
     }
