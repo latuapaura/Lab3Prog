@@ -1,18 +1,14 @@
 package classes;
 
-import utility.Entity;
+import utility.Nature;
 
-public class Tree extends Entity {
-    private Leafs leafs;
+public class Tree extends Nature {
     public Tree() {
-        super("Дерево");
+        super("Деревья");
         this.connectToStory();
-        leafs = new Leafs();
     }
-    public void wave(Entity target){
-        System.out.println(this.getName() + " машет " + target.getName() +"у "+ leafs.getName() +"ми");
-    }
+
     public void whisper(){
-        System.out.println(this.getName()+" что-то шепчет");
+        System.out.println(this.getName()+" что-то шепчут на своём лесном языке");
     }
 }

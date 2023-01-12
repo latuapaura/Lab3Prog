@@ -1,8 +1,8 @@
 package utility;
 
 public enum Emotion {
-    NICE("приятно"), EMOTION("мило");
-    private final String emo;
+    NICE("приятно"), PLEASURE("наслаждение");
+    private String emo;
 
     Emotion(String emo){
         this.emo = emo;

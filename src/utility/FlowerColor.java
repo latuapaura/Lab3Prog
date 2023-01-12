@@ -1,7 +1,7 @@
 package utility;
 
 public enum FlowerColor {
-    PINK("Розовые"), BLUE("Нежно-голубые");
+    PINK("Розовые "), BLUE("Нежно-голубые ");
     private final String color;
 
     FlowerColor(String color){
