@@ -52,14 +52,5 @@ public class Story {
         skuperfild.startedToCry();
 
         System.out.println("Плакали всей маршруткой");
-
-
-
-
-
-
-
-
-
     }
 }
