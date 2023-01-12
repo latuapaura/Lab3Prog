@@ -32,9 +32,7 @@ public abstract class Entity implements GetProp {
 
     @Override
     public boolean equals(Object obj) {
-        Entity o = (Entity) obj;
-        if (this.name == o.name) {return true;}
-        else {return false;}
+        return super.equals(obj);
     }
 
     @Override
