@@ -4,7 +4,10 @@ import utility.BirdAdj;
 import utility.Entity;
 import utility.Position;
 
+import java.util.Objects;
+
 public class Birds extends Entity {
+
     private Position position;
     private BirdAdj adj;
     public Birds() {
@@ -32,9 +35,19 @@ public class Birds extends Entity {
         System.out.println(this.adj + this.getName() + " в данный момент находятся " + this.position);
     }
 
+    @Override
+    public boolean equals(Object o){
+        if (this == o){
+            return true;
+        }
+        if (o == null||getClass() != o.getClass()) return false;
+        Birds birds  = (Birds) o;
+        return Objects.equals(adj, birds.adj);
+    }
     public void changeAdj(BirdAdj adj){
         this.adj = adj;
     }
+
 
 
 }

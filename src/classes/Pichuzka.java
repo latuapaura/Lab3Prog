@@ -22,4 +22,6 @@ public class Pichuzka extends Entity {
     public void fliedAway(Skuperfild skuperfild){
         System.out.println(this.getName() +  " вспорхнула и улетела, задев " + skuperfild.getName() + " по щеке краем крыла");
     }
+
+
 }

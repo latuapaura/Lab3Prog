@@ -3,6 +3,8 @@ package classes;
 import utility.Nature;
 import utility.WindAdj;
 
+import java.util.Objects;
+
 public class Wind extends Nature {
 
     private WindAdj adj;
@@ -20,5 +22,15 @@ public class Wind extends Nature {
 
     public void raid(Tree tree, Leafs leafs){
         System.out.println(this.getName() + " налетал порывами и шевелил на " + tree.getName() + " " + leafs.getName());
+    }
+
+    @Override
+    public boolean equals(Object o){
+        if (this == o){
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) return false;
+        Wind wind  = (Wind) o;
+        return Objects.equals(adj, wind.adj);
     }
 }

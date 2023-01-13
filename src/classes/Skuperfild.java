@@ -4,6 +4,8 @@ import utility.BirdAdj;
 import utility.Emotion;
 import utility.Entity;
 
+import java.util.Objects;
+
 public class Skuperfild extends Entity {
     private Emotion emo;
     public Skuperfild() {
@@ -34,6 +36,16 @@ public class Skuperfild extends Entity {
 
     public void startedToCry(){
         System.out.println(this.getName() + ", ощутив нежное прикосновение этого милого существа, расчувствовался и заплакал");
+    }
+
+    @Override
+    public boolean equals(Object o){
+        if (this == o){
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) return false;
+        Skuperfild skuperfild  = (Skuperfild) o;
+        return Objects.equals(emo, skuperfild.emo);
     }
 
 }
